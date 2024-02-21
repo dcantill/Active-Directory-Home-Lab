@@ -44,23 +44,37 @@ Launch Oracle Virtual Box + Create New: <br/>
 <img src="https://i.imgur.com/XP3TnaL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Configure Settings 2: <br/>
-<img src="https://i.imgur.com/i5SEMA9.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Create a New Virtual Box Instance: <br/>
+<img src="https://i.imgur.com/duSTaFZ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/0dWXEzM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/GURL48r.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Set Up VM Username and PW: <br/>
-<img src="https://i.imgur.com/ltzMA6X.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Before launching the VM, configure these "Network" tab settings: <br/>
+<img src="https://i.imgur.com/hsDgWr5.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Usk4nHs.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/YP8RhPT.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create a New Network Security Group: <br/>
-<img src="https://i.imgur.com/tNpLT2v.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Now launch the VM and Install Windows Server 2019: <br/>
+<img src="https://i.imgur.com/SuXMVNf.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/JxlCsyk.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Allow Anyone To Ping the VM: <br/>
-<img src="https://i.imgur.com/PUHceZR.png" height="75%" width="75%" alt="Disk Sanitization Steps"/>
+Choose the Custom Installation: <br/>
+<img src="https://i.imgur.com/0Up0E1M.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/KVtNIkP.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/IW77iIM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Launch the Windows 10 Pro Image VM: <br/>
+Now create an Administrator password and log into VM: <br/>
 <img src="https://i.imgur.com/hgIHINd.png" height="75%" width="75%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
