@@ -25,10 +25,12 @@ The project entails setting up a virtual machine on Microsoft Azure to function 
 <h2>Project Walk-Through 🚶:</h2>
 
 <p align="center">
-Launch Microsoft Azure on Host PC: <br/>
-<img src="https://i.imgur.com/AgrPLy5.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
- <br />
- <br />
+Install Oracle Virtual Box + Extension Pack: <br/>
+<img src="https://i.imgur.com/EbXqRzn.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/XuLwYKt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 Create Virtual Machine:
 <br />
 <img src="https://i.imgur.com/LRxlort.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
