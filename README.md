@@ -31,13 +31,17 @@ Install Oracle Virtual Box + Extension Pack: <br/>
 <img src="https://i.imgur.com/XuLwYKt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create Virtual Machine:
+Install Windows 10 ISO (64-bit) + Windows Server 2019 ISO (64-bit):
 <br />
-<img src="https://i.imgur.com/LRxlort.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/uAw1Ipp.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/fbMUoBE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Configure Settings 1: <br/>
-<img src="https://i.imgur.com/SVgEBAL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Launch Oracle Virtual Box + Create New: <br/>
+<img src="https://i.imgur.com/aF72NrO.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/XP3TnaL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Configure Settings 2: <br/>
