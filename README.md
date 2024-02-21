@@ -75,28 +75,63 @@ Choose the Custom Installation: <br/>
 <br />
 <br />
 Now create an Administrator password and log into VM: <br/>
-<img src="https://i.imgur.com/hgIHINd.png" height="75%" width="75%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/EKs5FtQ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/5GV4S4e.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Open Log Analytics Workspace On Azure on Host PC:  <br/>
-<img src="https://i.imgur.com/MdRSGpC.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+In VM, press "Insert Guest Additions CD Image" and Install to provide better mouse input:  <br/>
+<img src="https://i.imgur.com/d4EeVKV.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/CxBZq8X.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/eLds6y9.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/0qmqeyG.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/o3xKXH1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/R8x1Moo.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create a New Workspace: <br/>
-<img src="https://i.imgur.com/zJRqcyx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Choose to "Reboot Later" and manually shut down the VM: <br/>
+<img src="https://i.imgur.com/tgQiu7V.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/BQaQZZ3.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Open Microsoft Defender for Cloud:  <br/>
-<img src="https://i.imgur.com/h4kiTJu.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Open the Domain Controller VM again and log in:  <br/>
+<img src="https://i.imgur.com/dDA6I2l.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/kZGOcpR.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Configure to Store All Raw Data:  <br/>
-<img src="https://i.imgur.com/FE24dYo.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+In the bottom right, open Network tab on the taskbar and configure the "Internet" and "Internal" Networks:  <br/>
+<img src="https://i.imgur.com/8F6Xvwo.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/oTCF0aw.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/IiVP80g.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Ei3j2xO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/llRzmJY.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Hnb8OrJ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/hTkS0xE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/rH0lxvS.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Connect to the VM Workstation:  <br/>
-<img src="https://i.imgur.com/DTNmsam.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/NOE48eE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Rename the PC to "DomainController" and Reboot:  <br/>
+<img src="https://i.imgur.com/W06Eyql.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/7Oc1LOE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/CjNPPpd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/DJnIFgV.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Open MS Sentinel on Host PC:  <br/>
