@@ -124,6 +124,12 @@ In the bottom right, open Network tab on the taskbar and configure the "Internet
 <img src="https://i.imgur.com/rH0lxvS.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Go to "Internal Network" Properties and configure the following static IPv4 address:  <br/>
+<img src="https://i.imgur.com/hO8rXh0.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/RbUpK0y.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 Rename the PC to "DomainController" and Reboot:  <br/>
 <img src="https://i.imgur.com/W06Eyql.png" height="30%" width="30%" alt="Disk Sanitization Steps"/>
 <br />
@@ -134,12 +140,44 @@ Rename the PC to "DomainController" and Reboot:  <br/>
 <img src="https://i.imgur.com/DJnIFgV.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Open MS Sentinel on Host PC:  <br/>
-<img src="https://i.imgur.com/eXCQuE7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open "Server Manager" and Install "Active Directory Domain Services":  <br/>
+<img src="https://i.imgur.com/RDrrUod.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/9FRYxH3.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/et8fk04.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/FcbHm0k.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Dnm2qkH.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/AziqZyz.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/uuq1CJr.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/9FTNClY.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Add MS Sentinel to the workspace:  <br/>
-<img src="https://i.imgur.com/ar30rRX.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Deploy the Active Directory Domain Services and Reboot the PC:  <br/>
+<img src="https://i.imgur.com/EDX9D4h.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Zypsbap.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/9QEJb2U.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/3RCkA3t.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/TdxiDs6.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Q4GPtO2.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Lg9Yyes.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/gmMdqDp.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/fGoZ5VH.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/CPtbtjc.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Copy the Public IP Address of the VM Workstation:  <br/>
