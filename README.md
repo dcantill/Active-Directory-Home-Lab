@@ -264,14 +264,18 @@ Under "Tools" open "DHCP" and create a new scope:  <br/>
 <img src="https://i.imgur.com/cvLvFaM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Add in your unique API key into the script:  <br/>
-<img src="https://i.imgur.com/hdVlVQD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Edit the plaintext document to include your name, save it, and run it as administrator in Windows Powershell ISE:  <br/>
+<img src="https://i.imgur.com/kSUVxzO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/Q4gZpXk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/nJnWd0U.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/v3TvKgz.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Save the Script onto Desktop:  <br/>
-<img src="https://i.imgur.com/oUXyydG.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Open the Powershell script and set the Execution Policy to "unrestricted" (this is a security feature only allowed in a home lab setup):  <br/>
+<img src="https://i.imgur.com/JRjtsVg.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/HecDoqV.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Run the script and go to C:\ProgramData\$($LOGFILE_NAME) on the VM to access the log file login attempts are pasted to:  <br/>
