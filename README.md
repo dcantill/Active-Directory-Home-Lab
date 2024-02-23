@@ -180,49 +180,88 @@ Deploy the Active Directory Domain Services and Reboot the PC:  <br/>
 <img src="https://i.imgur.com/CPtbtjc.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Copy the Public IP Address of the VM Workstation:  <br/>
-<img src="https://i.imgur.com/TOxHGDV.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Sign in again and open "Active Directory Users and Computers":  <br/>
+<img src="https://i.imgur.com/at5zEjA.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/sxk5u7B.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Open RDP on Host PC to connect to the VM Workstation w/ Username + PW:  <br/>
-<img src="https://i.imgur.com/J2bNE6k.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8CMilW1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Open Event Viewer to view Windows processes on VM:  <br/>
-<img src="https://i.imgur.com/2ntNvkn.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Within "mydomain.com" create a new Organizational Unit (OU) called "ADMINS":  <br/>
+<img src="https://i.imgur.com/w3VJE3W.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Attempt to login again, however, enter incorrect credentials:  <br/>
-<img src="https://i.imgur.com/fLIl7TO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Create a new administrator user and assign administrator privileges:  <br/>
+<img src="https://i.imgur.com/jbooPKH.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/BgOkRDy.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/rIbA3j5.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/rDRDHNd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-These "failed" attempts will identify as "Audit Failure" with the code "4625," future login attempts from brute forcers around the world will register as the same code:  <br/>
-<img src="https://i.imgur.com/QIJgBHF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Sign out of the current account and sign into the newly created administrator account:  <br/>
+<img src="https://i.imgur.com/uOaBabh.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/cmmFYng.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-Disable the Windows Firewall on VM so it can be pinged publicly:  <br/>
-<img src="https://i.imgur.com/GmN9oEe.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HWtkph5.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Disable the Windows Firewall on VM so it can be pinged publicly:  <br/>
-<img src="https://i.imgur.com/GmN9oEe.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
+In "Server Manager," go to "Add roles and features" and enable "Remote Access" and "Routing":  <br/>
+<img src="https://i.imgur.com/mRlfhSS.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/JUpsfSq.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DLPeXqF.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<img src="https://i.imgur.com/z16kebh.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/Tv1xeTB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<img src="https://i.imgur.com/FBosipH.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DjrMkTq.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-Run Powershell ISE on VM Workstation + Add New Script:  <br/>
-<img src="https://i.imgur.com/FrqD7HQ.png" height="25%" width="25%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/D3k8NqL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Paste the Script "Security_Log_Exporter.ps1":  <br/>
-<img src="https://i.imgur.com/Qkhycz1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Go to "Tools" in the top right corner and right-click on "DOMAINCONTROLLER (local)" to configure a "NAT Internet Connection":  <br/>
+<img src="https://i.imgur.com/HjLLUrD.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/MQtHSH0.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/7Y0ofcX.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/M2y61fw.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Go to "Add Roles and Features" and we are going to add a DHCP Server for the network:  <br/>
+<img src="https://i.imgur.com/FQPsUv4.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/4bQeZWu.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/I7eiduq.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Under "Tools" open "DHCP" and create a new scope:  <br/>
+<img src="https://i.imgur.com/VEMivTN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/QUU6uZl.png" height="35%" width="35%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/P4J0RCl.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/DCOVQ8c.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/nEDQyQq.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/hFRhyGG.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/IoRCUij.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/cB0Xx9n.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+*this next config is only suitable for home lab setups (allowing the domain controller to access the internet to install the "fake users" Powershell script:  <br/>
+<img src="https://i.imgur.com/PkkOL6D.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/qXHkgGb.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/shkP3iD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Hh35TsO.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/cvLvFaM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Add in your unique API key into the script:  <br/>
