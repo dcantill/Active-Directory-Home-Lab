@@ -303,7 +303,7 @@ Change the directory to where the .txt name file is located and ensure the docum
 <img src="https://i.imgur.com/emDw16n.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Run the script and wait for all user's creation:  <br/>
+Run the script and wait for it to generate all users:  <br/>
 <img src="https://i.imgur.com/qGdWHIQ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <img src="https://i.imgur.com/ChPSUaz.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -313,20 +313,7 @@ Run the script and wait for all user's creation:  <br/>
 <img src="https://i.imgur.com/28Lp1eT.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Add a new query and run "Query_Log_Organizer":  <br/>
-<img src="https://i.imgur.com/FXH9DVk.png" height="15%" width="15%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/Yug7svW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Now wait a few hours for attackers to attempt to brute force login to the VM:  <br/>
-<img src="https://i.imgur.com/qRSEf7q.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/WhHVJRs.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/DrAGkKD.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
+
 
 <!--
  ```diff
