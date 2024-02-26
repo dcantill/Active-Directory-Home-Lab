@@ -278,7 +278,7 @@ Open the Powershell script and set the Execution Policy to "unrestricted" (this 
 <img src="https://i.imgur.com/HecDoqV.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Run the script and go to C:\ProgramData\$($LOGFILE_NAME) on the VM to access the log file login attempts are pasted to:  <br/>
+Explaining the script we will run...  <br/>
 <img src="https://i.imgur.com/U2ITVaJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <img src="https://i.imgur.com/7wtweCD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
@@ -286,26 +286,30 @@ Run the script and go to C:\ProgramData\$($LOGFILE_NAME) on the VM to access the
 <img src="https://i.imgur.com/i9sZWYn.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Copy the Notepad on the VM and paste it into a Notepad on the Host PC:  <br/>
-<img src="https://i.imgur.com/v38roHM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+1. All users will use the same password:  <br/>
+<img src="https://i.imgur.com/Yqrb8HA.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Save the Notepad on the Host PC to the desktop:  <br/>
-<img src="https://i.imgur.com/sZdcjnL.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+2. Users will get their username by mixing their first initial and last name:  <br/>
+<img src="https://i.imgur.com/zkMly4v.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Create a custom log from the notepad note on the Host PC and route it from the log on the VM:  <br/>
-<img src="https://i.imgur.com/xPA6sWm.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-<br />
-<img src="https://i.imgur.com/bmCgzQN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+3. All users will be configured with the following settings for their profile:  <br/>
+<img src="https://i.imgur.com/2vVKf6g.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Copy and paste the "Query_Log_Organizer" and run:  <br/>
-<img src="https://i.imgur.com/CUIfxcV.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Change the directory to where the .txt name file is located and ensure the document is located there:  <br/>
+<img src="https://i.imgur.com/emDw16n.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Open MS Sentinel and Create a new workbook:  <br/>
-<img src="https://i.imgur.com/1jUOPkE.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Run the script and wait for all user's creation:  <br/>
+<img src="https://i.imgur.com/qGdWHIQ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/ChPSUaz.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/wNZiOY5.png" height="150%" width="100%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/28Lp1eT.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Add a new query and run "Query_Log_Organizer":  <br/>
