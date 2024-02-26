@@ -1,15 +1,16 @@
 <h1>Active Directory Home Lab 🧪</h1>
 
 <h2>Description 📃</h2>
-The project entails setting up a virtual machine on Microsoft Azure to function as a honeypot, monitoring real-time RDP brute-force attacks globally. A tailored PowerShell script is used to gather and sift through Windows Event Viewer logs, identifying failed login attempts to the virtual machine by attackers and then utilizing a third-party API data collection tool to plot their geographic locations.
+The project involves setting up a home lab environment using virtual machines managed by Active Directory to simulate an enterprise-level network. By deploying Windows Server 2019 and running a custom PowerShell script to create thousands of users, Active Directory will be used to centralize user authentication and several other access control features. This dynamic environment aims to replicate an enterprise-level network administration, serving as a valuable platform for  research and training.
+
 <br />
 
 ## Tools and Technologies Utilized ⚙️:
 
-1. **Windows 10 ISO:** Deployed for creating and managing the honeypot environment.
-2. **Windows Server 2019:** Employed to meticulously sift through Windows Event Viewer logs, isolating failed RDP events.
-3. **Oracle Virtualbox:** Utilized to establish a secure connection with the virtual machine.
-4. **Windows PowerShell:** Integrated for tracking and analyzing geographical data via API.
+1. **Windows 10 ISO:**
+2. **Windows Server 2019:** Deployed to configure server management tools and features within the home lab.
+3. **Oracle Virtualbox:** Utilized to deploy Windows 10 and Windows Server 2019 virtual machines.
+4. **Windows PowerShell:** Integrated for generating thousands of "users" to manage in Active Directory.
 
 <h2>Environments Used 💻</h2>
 
@@ -18,9 +19,9 @@ The project entails setting up a virtual machine on Microsoft Azure to function 
 
 <h2>Key Takeways 📝</h2>
 
-- <b>Running a honeypot on a virtual machine allows for isolation from the rest of the network, minimizing the risk of compromising other systems if the honeypot is breached.
-- <b>Running the honeypot exposed me to a diverse array of attacker tactics, granting me invaluable insights into their behaviors, motivations, and techniques for breaching systems.
-- <b>Building the honeypot required a multifaceted skill set encompassing networking, system administration, scripting, and data analysis. This journey significantly enhanced my proficiency in these areas.
+- <b>Simulating a large-scale user network with virtual machines and Active Directory enables comprehensive testing and validation of network security measures, policies, and procedures within a controlled environment.
+- <b>Implementing monitoring tools and custom PowerShell scripts provides real-time visibility into user activities, facilitates automated administrative tasks, and enhances incident response capabilities, contributing to a more secure and efficient network infrastructure.
+- <b>Engaging in the setup and management of the Active Directory home lab fosters a deep understanding of network administration, cybersecurity principles, and scripting techniques, offering valuable hands-on experience and skill development opportunities.</b>
 
 <h2>Project Walk-Through 🚶:</h2>
 
