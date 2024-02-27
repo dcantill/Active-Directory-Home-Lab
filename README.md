@@ -13,7 +13,7 @@ The project involves setting up a home lab environment using virtual machines ma
 
 ## Tools and Technologies Utilized ⚙️:
 
-1. **Windows 10 ISO:** Deployed to mimic a client/user computer operating within the domain
+1. **Windows 10 ISO:** Deployed to mimic a client/user computer operating within the domain.
 2. **Windows Server 2019:** Deployed as the Domain Controller to configure server management tools and features within the home lab.
 3. **Oracle Virtualbox:** Utilized to deploy Windows 10 and Windows Server 2019 virtual machines.
 4. **Windows PowerShell:** Integrated for generating thousands of "users" to manage in Active Directory.
@@ -21,7 +21,7 @@ The project involves setting up a home lab environment using virtual machines ma
 <h2>Environments Used 💻</h2>
 
 - <b>Windows 10 ISO</b> (22H2)
-- <b>Windows Server 2019</b>
+- <b>Windows Server 2019</b> (V1809)
 
 <h2>Key Takeways 📝</h2>
 
