@@ -4,11 +4,17 @@
 The project involves setting up a home lab environment using virtual machines managed by Active Directory to simulate an enterprise-level network. By deploying Windows Server 2019 and running a custom PowerShell script to create thousands of users, Active Directory will be used to centralize user authentication and several other access control features. This dynamic environment aims to replicate an enterprise-level network administration, serving as a valuable platform for  research and training.
 
 <br />
+<br />
+
+<p align="center">
+<img src="https://i.imgur.com/dpJMbuM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 ## Tools and Technologies Utilized ⚙️:
 
-1. **Windows 10 ISO:**
-2. **Windows Server 2019:** Deployed to configure server management tools and features within the home lab.
+1. **Windows 10 ISO:** 
+2. **Windows Server 2019:** Deployed to act as the Domain Controller to configure server management tools and features within the home lab.
 3. **Oracle Virtualbox:** Utilized to deploy Windows 10 and Windows Server 2019 virtual machines.
 4. **Windows PowerShell:** Integrated for generating thousands of "users" to manage in Active Directory.
 
@@ -303,7 +309,7 @@ Change the directory to where the .txt name file is located and ensure the docum
 <img src="https://i.imgur.com/emDw16n.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Run the script and wait for it to generate all users:  <br/>
+Run the script and wait for it to generate all users (make sure to run PowerShell ISE as administrator):  <br/>
 <img src="https://i.imgur.com/qGdWHIQ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <img src="https://i.imgur.com/ChPSUaz.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
@@ -313,7 +319,14 @@ Run the script and wait for it to generate all users:  <br/>
 <img src="https://i.imgur.com/28Lp1eT.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-
+Open Active Directory Users and Computer and refresh your domain to view the created users:  <br/>
+<img src="https://i.imgur.com/1ynKTa1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Open Active Directory Users and Computer and refresh your domain to view the created users:  <br/>
+<img src="https://i.imgur.com/1ynKTa1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
 
 <!--
  ```diff
