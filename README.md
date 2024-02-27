@@ -323,10 +323,97 @@ Open Active Directory Users and Computer and refresh your domain to view the cre
 <img src="https://i.imgur.com/1ynKTa1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Open Active Directory Users and Computer and refresh your domain to view the created users:  <br/>
-<img src="https://i.imgur.com/1ynKTa1.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+Return to Oracle VirtualBox and create a new virtual machine:  <br/>
+<img src="https://i.imgur.com/IsTFtfn.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/d5C9Y6n.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/sJVl2pP.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
+Adjust system and network settings then install the Windows 10 ISO Image:  <br/>
+<img src="https://i.imgur.com/NFDIBCT.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/KW5eXDd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/zGeeA2L.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/EOvUSQV.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Adjust system and network settings then install the Windows 10 ISO Image:  <br/>
+<img src="https://i.imgur.com/2oxShSh.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/bYKoThU.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/dfNp1x6.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/nLJQU7F.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Continue through the Windows OS setup and configure a local account:  <br/>
+<img src="https://i.imgur.com/WrqFeH4.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/W2J3quu.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/ebFeh8B.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/NK4AzWM.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+In the Windows 10 Client virtual machine, run "ipconfig" to verify your internet is functional:  <br/>
+<img src="https://i.imgur.com/GI50tzI.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/T6Jqui3.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Back in the Windows Server 2019 Domain Controller virtual machine, open Active Directory "DHCP" and add a router in the server options:  <br/>
+<img src="https://i.imgur.com/mIET9UN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+Press "Refresh":  <br/>
+<img src="https://i.imgur.com/yf514Ex.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+Add a router and Restart "All Tasks":  <br/>
+<img src="https://i.imgur.com/uA0wlGF.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/eQMB60v.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Back in the "Client" Virtual Machine, run "ipconfig /renew":  <br/>
+<img src="https://i.imgur.com/AQLawSS.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Run "ping www.google.com to ensure the internet connectivity is running functionally:  <br/>
+<img src="https://i.imgur.com/3CQkSAK.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Right-click on the Windows Home Button and open system and press "Rename this PC (advanced)":  <br/>
+<img src="https://i.imgur.com/Dv1mwgZ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+Rename the PC and connect it to our domain "mydomain.com":  <br/>
+<img src="https://i.imgur.com/9rFFL93.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/lEtW20Z.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://i.imgur.com/Y3Br6yN.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://imgur.com/ezHDNw8.png" height="20%" width="20%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+In Active Directory, we now see the "CLIENT1" computer connected to the domain:  <br/>
+<img src="https://imgur.com/6Ki1ZVZ.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://imgur.com/GRtZrsl.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+In the "CLIENT1" virtual machine, try signing into one of the generated users to mimic a domain user logging into their account:
+<img src="https://imgur.com/aW5RR4P.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<img src="https://imgur.com/h0MFOdX.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+
 
 <!--
  ```diff
